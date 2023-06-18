@@ -1,0 +1,109 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos da seção "Sobre Mim" */
+#sobre-mim img {
+    max-width: 100%;
+}
+.centralizar-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+/* Estilos da seção "Projetos" */
+#projetos {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.projeto {
+    display: inline-block;
+    margin: 10px;
+}
+
+.projeto img {
+    max-width: 100%;
+}
+
+/* Estilos da seção "Contato" */
+#contato form input,
+#contato form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contato form textarea {
+    height: 100px;
+}
+
+#contato form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.buttonproject{
+    text-decoration: none;
+    width: 100%;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 1% 1% 1% 1%;
+}
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block; /* Adicionado para centralizar o botão */
+    margin: 0 auto; /* Adicionado para centralizar o botão */
+  }
+  .whatsapp-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;   
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .whatsapp-link:hover {
+    background-color: #128c7e;
+  }
